@@ -1,4 +1,12 @@
 <?php
+    $time = 12;
+    if ($time < 12 ){
+        $answer ="good morning";
+    }elseif($time > 12){
+        $answer = "good evening";
+    }else{
+        $answer = "NOON";
+    };
     echo "<!DOCTYPE html>
     <html lang='eng-US'>
         <head>
@@ -7,7 +15,7 @@
         </head>
         <body>
             <main>
-                
+                <h1> .$answer. </h1>
             </main>
         </body>
     </html>"
